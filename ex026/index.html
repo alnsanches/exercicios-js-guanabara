@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 026 - JS</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #6aa6b7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            padding: 12px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin-top: 250px;
+        }
+
+        h4 {
+            font-weight: normal;
+        }
+
+        input[type=submit] {
+            background: yellow;
+            color: #000;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Ex 026 - JS</h2>
+    <h4>Contagem mais "inteligente"</h4>
+    <p>Use qualquer valor nas caixas, simule contagens crescentes e regressivas. Use também valores negativos.</p>
+    <section id="entrada">
+        <form action="#" method="get">
+            <p>
+                <label for="fn1">Valor inicial: </label>
+                <input type="number" name="num" id="valor-inicial" placeholder="Início da contagem">
+            </p>
+
+            <p>
+                <label for="fn2">Valor final: </label>
+                <input type="number" name="num" id="valor-final" placeholder="Fim da Contagem">
+            </p>
+
+            <p>
+                <input type="submit" value="Clique aqui" formaction="javascript:contagem()">
+            </p>
+        </form>
+    </section>
+
+    <section id="resultado">
+        <p>O resultado irá aparecer aqui...</p>
+    </section>
+
+    <script src="script026.js"></script>
+</body>
+</html>
